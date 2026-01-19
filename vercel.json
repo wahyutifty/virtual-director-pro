@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/google-labs/(.*)",
+      "destination": "https://labs.google.com/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
